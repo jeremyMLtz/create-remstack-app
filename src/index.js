@@ -1,8 +1,5 @@
-#!/usr/bin/env node
 const { Command } = require("commander");
-const fs = require("fs-extra");
 const path = require("path");
-const { exec } = require("child_process");
 const scaffoldProject = require("./lib/scaffoldProject");
 const installDependencies = require("./lib/installDependencies");
 
