@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "CLI tool for creating RemStack Next.js apps",
   "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeremyMLtz/create-remstack-app"
+  },
   "scripts": {
     "start": "node ./src/index.js",
     "test": "echo \"No tests specified\""
