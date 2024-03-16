@@ -1,0 +1,27 @@
+{
+  "name": "create-remstack-app",
+  "version": "1.0.0",
+  "description": "CLI tool for creating RemStack Next.js apps",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"No tests specified\""
+  },
+  "bin": {
+    "create-remstack-app": "./src/index.js"
+  },
+  "keywords": [
+    "cli",
+    "next.js",
+    "typescript",
+    "tailwindcss",
+    "clerk.js",
+    "prisma"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0"
+  }
+}
